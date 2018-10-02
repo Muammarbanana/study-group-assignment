@@ -16,6 +16,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         et2 = findViewById(R.id.et2);
         Intent intent = getIntent();
         String message = intent.getStringExtra("pesan_saya");
@@ -27,6 +28,17 @@ public class SecondActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TwoActivity.class);
         String message = et2.getText().toString();
         intent.putExtra("pesan_saya", message);
+        startActivity(intent);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
+
+    public void portal(View view) {
+        Intent intent = new Intent(this, Kalkulator.class);
         startActivity(intent);
     }
 }

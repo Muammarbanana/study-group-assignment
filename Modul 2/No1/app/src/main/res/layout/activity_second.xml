@@ -28,5 +28,11 @@
         android:layout_height="wrap_content"
         android:onClick="reply"
         android:text="Reply"/>
+    <Button
+        android:id="@+id/portal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="portal"
+        android:text="Ke Kalkulator"/>
 
 </LinearLayout>
