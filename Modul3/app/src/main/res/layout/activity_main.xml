@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:context="com.example.ahmad.modul3app.MainActivity">
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/label_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/edittext"></Spinner>
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show"
+        android:layout_toRightOf="@+id/label_spinner"/>
+
+    <TextView
+        android:id="@+id/tekx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/phone"/>
+
+
+
+</RelativeLayout>
