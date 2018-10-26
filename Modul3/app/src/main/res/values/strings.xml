@@ -2,6 +2,14 @@
     <string name="app_name">Modul3app</string>
     <string name="phone">Phone Number: Nothing Entered</string>
     <string name="show">Show</string>
+    <string name="alert_title">Alert</string>
+    <string name="alert_message">Click OK to continue, or Cancel to stop:</string>
+    <string name="ok">OK</string>
+    <string name="pressed_ok">Pressed OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="pressed_cancel">Pressed Cancel</string>
+    <string name="tombol_alert">Alert</string>
+    <string name="alert_custom">Alert Custom</string>
     <string-array name="labels_array">
         <item>Home</item>
         <item>Work</item>

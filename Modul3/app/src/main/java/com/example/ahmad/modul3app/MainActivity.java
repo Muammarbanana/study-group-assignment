@@ -1,5 +1,6 @@
 package com.example.ahmad.modul3app;
 
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,7 +13,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
-    private static final String TAG = "MainActivity" ;
+    private static final String TAG = "MainActivity";
     private String mSpinnerLabel = "";
 
     @Override
@@ -59,4 +60,5 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             if (phoneNumberResult != null) phoneNumberResult.setText(showString);
         }
     }
+
 }
