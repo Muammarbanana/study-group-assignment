@@ -1,5 +1,6 @@
 package com.example.ahmad.modul3app;
 
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -61,4 +62,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
     }
 
+    public void pindah(View view) {
+        Intent i = new Intent(MainActivity.this,AlertTest.class);
+        startActivity(i);
+    }
 }

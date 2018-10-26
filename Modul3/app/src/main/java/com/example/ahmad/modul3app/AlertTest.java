@@ -2,6 +2,7 @@ package com.example.ahmad.modul3app;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -66,5 +67,10 @@ public class AlertTest extends AppCompatActivity {
         });
 
         dialog.show();
+    }
+
+    public void pindah2(View view) {
+        Intent i = new Intent(AlertTest.this, Cobapicasso.class);
+        startActivity(i);
     }
 }
