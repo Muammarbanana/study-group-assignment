@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".AlertTest" />
-        <activity android:name=".Cobapicasso"></activity>
+        <activity android:name=".Cobapicasso" />
+        <activity android:name=".rvGambar"></activity>
     </application>
 
 </manifest>
